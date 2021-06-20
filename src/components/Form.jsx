@@ -43,7 +43,7 @@ const Form = () => {
         console.log(city, country);
         console.log(data);
         handleClick(false);
-    }, [click]);
+    }, [city, click, country, data]);
 
     const handleCityChange = (city) => {
         setCity(city);
